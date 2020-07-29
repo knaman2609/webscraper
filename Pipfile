@@ -6,11 +6,7 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-bs4 = "*"
-requests = "*"
 requests-html = "*"
-flask = "*"
-flask-sqlalchemy = "*"
-
-[requires]
-python_version = "3.8"
+schedule = "*"
+flask="*"
+flask_cors="*"
