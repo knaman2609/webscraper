@@ -21,7 +21,7 @@ async def scrape_web ():
 def runScrapper ():
     loop = asyncio.get_event_loop()
     loop.run_until_complete(scrape_web())
-
+    
 schedule.every(10).seconds.do(runScrapper)
 
 while 1:
